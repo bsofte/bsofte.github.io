@@ -40,11 +40,11 @@ https://update.code.visualstudio.com/commit:$COMMIT_ID/server-linux-x64/insider 
 3. 이 파일을 대상 서버에 업로드한다.
 4. 압축 해제. (tar.gz 파일이므로 z 옵션을 꼭 줘야 한다 !!)
 ```sh
-tar -xvzf vscode-server.tar.gz --strip-components 1 -C /home/$USERNAME/.vscode-server/bin/**$COMMIT_ID**/
+tar -xvzf vscode-server.tar.gz --strip-components 1 -C /home/$USERNAME/.vscode-server/bin/$COMMIT_ID/
 ```
 
 
 
-# sudo 관련 vscode 확장 추가 (보완!!)
-* <span style="color:red;">파일 접근: ssh fs</span>
+# sudo 관련 vscode 확장 추가 <span style="color:red;">(보완!!)</span>
+* 파일 접근: ssh fs
 * 파일 저장: Save as Root in Remote
