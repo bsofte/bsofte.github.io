@@ -42,6 +42,8 @@ https://update.code.visualstudio.com/commit:$COMMIT_ID/server-linux-x64/insider 
 tar -xvzf vscode-server.tar.gz --strip-components 1 -C /home/$USERNAME/.vscode-server/bin/**$COMMIT_ID**/
 ```
 
+
+
 # sudo 관련 vscode 확장 추가
 * 파일 접근: ???
 * 파일 저장: Save as Root in Remote
