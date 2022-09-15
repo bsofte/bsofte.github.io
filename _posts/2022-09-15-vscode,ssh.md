@@ -4,6 +4,7 @@ title		: vscode ssh 접속 대상 서버가 폐쇄망일 경우 설정 방법
 
 ## 개요
 vscode ssh로 서버 접속 시, 대상 서버의 /home/{username} 경로에 .vscode-server 디렉터리가 생성되고 각종 필요한 파일을 자동으로 인터넷에서 다운받게 된다.
+
 따라서 해당 서버가 폐쇄망이면 파일 다운로드가 실패하게 되고, vscode ssh 접속도 되지 않는다.
 
 ## 링크
