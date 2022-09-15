@@ -1,13 +1,16 @@
 ---
 title		: vscode ssh 접속 설정
 ---
-# 접속 설정 기본 사항
+# 기본 설정
 
 ## PC 측
+
 ### 해당 extension: 
 remote ssh, remote container
 
 ### oNE 환경
+* VScode에서 직접 설치
+* 메뉴 경로: VScode >> {좌측 창} Extention
 
 ### cNE 환경
 * 해당 vsix 다운로드
@@ -39,6 +42,6 @@ https://update.code.visualstudio.com/commit:$COMMIT_ID/server-linux-x64/insider 
 tar -xvzf vscode-server.tar.gz --strip-components 1 -C /home/$USERNAME/.vscode-server/bin/**$COMMIT_ID**/
 ```
 
-## sudo 관련 vscode 확장 추가
+# sudo 관련 vscode 확장 추가
 * 파일 접근: ???
 * 파일 저장: Save as Root in Remote
