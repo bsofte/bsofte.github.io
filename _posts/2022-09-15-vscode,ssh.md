@@ -45,6 +45,6 @@ tar -xvzf vscode-server.tar.gz --strip-components 1 -C /home/$USERNAME/.vscode-s
 
 
 
-# sudo 관련 vscode 확장 추가 <span style="color:red;">(보완!!)</span>
+# sudo 관련 vscode 확장 추가 <span style="color:red;">(미검증!!)</span>
 * 파일 접근: ssh fs
 * 파일 저장: Save as Root in Remote
