@@ -33,7 +33,8 @@ vscode ssh로 서버 접속 시, 대상 서버의 /home/$USERNAME 경로에 .vsc
 https://stackoverflow.com/questions/56718453/using-remote-ssh-in-vscode-on-a-target-machine-that-only-allows-inbound-ssh-co
 
 #### 해결 방법
-1. 대상 서버의 다음 경로에서 commit id를 확인한다. /home/$USERNAME/.vscode-server/bin/**$COMMIT_ID**/
+1. 대상 서버의 다음 경로에서 commit id를 확인한다.
+/home/$USERNAME/.vscode-server/bin/**$COMMIT_ID**/
 2. 인터넷 가능한 PC에서 다음 경로를 열어서 vscode-server.tar.gz 파일을 다운받는다.
 https://update.code.visualstudio.com/commit:$COMMIT_ID/server-linux-x64/insider  (일단 x64인 경우만..)
 3. 이 파일을 대상 서버에 업로드한다.
